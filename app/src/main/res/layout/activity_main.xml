@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/fondojpg"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/btnSalir"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/pngegg__1_" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Etnombre"
+                android:textColor="@color/white"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColorHint="@color/white"
+                android:layout_gravity="center"
+
+                android:hint="Nombre">
+
+            </EditText>
+            <EditText
+                android:id="@+id/Etapellido"
+                android:layout_marginTop="20dp"
+                android:layout_width="200dp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColorHint="@color/white"
+
+                android:layout_gravity="center"
+                android:hint="Apellido">
+
+            </EditText>
+            <Button
+                android:id="@+id/BtnDatePicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textColorHint="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                style="?android:spinnerStyle"
+                />
+            <Button
+                android:id="@+id/Guardar"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Guardar"
+                />
+            <TextView
+                android:id="@+id/lblTitulo"
+                android:textSize="20dp"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Tipos de arte"></TextView>
+            <RadioButton
+                android:id="@+id/RbTema1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Arte moderno"
+                android:layout_gravity="center"/>
+            <RadioButton
+                android:id="@+id/RbTema2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Arte abstracto"
+                android:layout_gravity="center"/>
+            <RadioButton
+                android:id="@+id/RbTema3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Arte gotico"
+                android:layout_gravity="center"/>
+            <RadioButton
+                android:id="@+id/RbTema4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arte Griego"
+                android:textColor="@color/white"
+                android:layout_gravity="center"/>
+
+            <RadioButton
+                android:id="@+id/RbTema5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arte Renacentista"
+                android:textColor="@color/white"
+                android:layout_gravity="center"/>
+            <ImageButton
+                android:id="@+id/BtnImgs"
+                android:layout_marginTop="10dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:layout_gravity="center"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
