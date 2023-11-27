@@ -15,7 +15,8 @@
         android:layout_marginBottom="10dp"
         android:background="@android:drawable/dialog_holo_light_frame"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/pngegg__1_" />
+        app:srcCompat="@drawable/pngegg__1_"
+        />
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -122,6 +123,15 @@
                 android:scaleType="fitXY"
                 android:visibility="invisible"
                 android:layout_gravity="center"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Christofer González"/>
+
 
 
 
