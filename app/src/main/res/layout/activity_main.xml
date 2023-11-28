@@ -52,8 +52,9 @@
             </EditText>
             <Button
                 android:id="@+id/BtnDatePicker"
-                android:layout_width="match_parent"
+                android:layout_width="300dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:textColor="@color/white"
                 android:textAlignment="center"
                 android:textColorHint="@color/white"
@@ -61,14 +62,7 @@
                 android:layout_marginTop="20dp"
                 style="?android:spinnerStyle"
                 />
-            <Button
-                android:id="@+id/Guardar"
-                android:layout_marginTop="30dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
 
-                android:text="Guardar"
-                />
             <TextView
                 android:id="@+id/lblTitulo"
                 android:textSize="20dp"
@@ -77,6 +71,7 @@
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+
                 android:layout_gravity="center"
                 android:text="Tipos de arte"></TextView>
             <RadioButton
@@ -124,9 +119,17 @@
                 android:visibility="invisible"
                 android:layout_gravity="center"/>
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:id="@+id/btnSiguiente"
+                android:layout_width="91dp"
+                android:layout_height="67dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="end"
+                android:scaleType="fitXY"
+                android:rotation="180"
+                app:srcCompat="@drawable/klipartz_com" />
             <TextView
+                android:id="@+id/lblAutor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
